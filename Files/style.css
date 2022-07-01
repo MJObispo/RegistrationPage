@@ -1,0 +1,25 @@
+body {
+    /*image from pixabay, free for commercial use*/
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/29/10/12/purple-1780371_1280.png);
+    background-size: cover;
+}
+
+.container {
+    background-image: linear-gradient(to right, rgba(250, 249, 249, 0.767),  rgba(189, 181, 189, 0.788) );
+}
+
+.button {
+    border: 2px solid rgb(99, 96, 96);
+    background-color: transparent;
+    font-size: 25px;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition-duration: 0.2s;
+}
+
+.button:hover {
+    background-color: rgb(147, 120, 245);
+}
