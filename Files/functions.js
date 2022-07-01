@@ -26,7 +26,7 @@ function validateEmail() {
 function validatePassword() {
    let passwordInput = document.getElementById("password").value; 
    let passwordlength = passwordInput.length; 
-   let numbersList = /\d/;
+   let numbersList = /\d/; //regex expression for all non-digit characters
   
    let passwordValidity = (passwordlength >=8) ? true : false; 
 
