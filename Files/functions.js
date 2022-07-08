@@ -63,5 +63,3 @@ function showPassword() {
     y.type = "password";
   }
 }
-
-
