@@ -63,3 +63,16 @@ function showPassword() {
     y.type = "password";
   }
 }
+
+function evalAll() {
+   let a = validateNames();
+   let b = validateEmail();
+   let c = validatePassword();
+   let d = validateConfirmPassword();
+
+   if (a && b && c && d) {
+      return true;
+   } else {
+      return false; 
+   }
+}

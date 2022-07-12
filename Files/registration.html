@@ -11,7 +11,7 @@
 <body>
     <div class="container my-5 p-5 bg-light rounded shadow">
         <h1 class="display-6">SIGN UP</h1>
-        <form name = "mainForm" id = "mainForm" onsubmit="return (validateNames() && validateEmail() && validatePassword() && validateConfirmPassword());">
+        <form name = "mainForm" id = "mainForm" onsubmit="return evalAll()">
             <div class="row pt-2">
                 <div class="col">
                     <label class="form-label">First name:</label>
